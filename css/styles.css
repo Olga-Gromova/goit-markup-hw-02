@@ -1,5 +1,57 @@
 :root {
 --main-color-header:  #FFFFFF;
+--logo-color-header: #000000;
+--logo-color-footer: #FFFFFF;
+--accent-color: #2196F3;
 
 
+}
+
+ul {
+    list-style: none;
+}
+
+/* <!--Скрываем визуализацию--> */
+
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}
+
+a {
+    text-decoration: none;
+    font-style: normal;
+}
+
+body {
+
+    font-family: 'Roboto', sans-serif;
+}
+
+.logo :hover, .logo :focus {
+    color: #000000;
+}
+
+
+
+.logo-header {
+    color: var(--logo-color-header);
+}
+
+.accent {
+    color: var(--accent-color);
+}
+
+/* !!!!!!!added "backgound" for visual only for WH-02 */
+.logo-footer {
+    color: var(--logo-color-footer);
+    background: grey;
 }
